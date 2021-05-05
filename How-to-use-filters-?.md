@@ -1,17 +1,27 @@
 Filters allow you to selectively forward some messages while excluding others.
 
-Currently, filters based on text whitelist and blacklist are available.
+
 
 For an intro to configuration [read this](https://github.com/aahnik/tgcf/wiki/How-to-configure-tgcf-%3F) page.
 
-To use text-based filtering, put the following in your configurations:
+## Example
 
 ```yaml
 plugins:
   filter:
     text:
-      blacklist: ["nope","idiot"]
-      whitelist: ["hello"]
+      whitelist: ["this word"]
+      blacklist: ["hello"]
+    users:
+      blacklist: [1547315064] # currently user ids are supported only. get from @userinfobot on telegram
+    files:
+      whitelist: [document,nofile] 
+      # valid types are 
+      # audio,gif,video,video_note,sticker,contact,photo,document,nofile
+    
+
 ```
 
-You can add many words to the blacklist or whitelist. You may use either whitelist or blacklist or both.
+Note:
+- for text filtering, you may use whitelist or blacklist or both
+- for users and files filtering, use either a whitelist or a blacklist
