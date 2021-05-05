@@ -43,8 +43,14 @@ plugins:
 Here is the complete schema for the configuration file.
 
 - `forwards` (a list of forward objects)
-- forward ( contains a `source` (integer), a `dest` (list of integers) and an `offset`(optional integer) )
+    - forward ( contains a `source` (integer), a `dest` (list of integers) and an `offset`(optional integer) )
 - `show_forwarded_from` (boolean: true/false)
+- `live`
+   - `delete_sync` : bool (true or false)
+- `past`
+   - `delay`: int (between 1 to 100 )(seconds) (time to wait after every message is sent)
+
+
 - `plugins` contain the name of the plugin and the data to be passed to that plugin.
    - What data to pass to plugins? is defined in the documentation for that plugin. Here is the [list of all plugins](https://github.com/aahnik/tgcf/wiki/Plugins).
 
