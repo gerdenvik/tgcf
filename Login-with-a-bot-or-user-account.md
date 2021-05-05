@@ -1,3 +1,16 @@
+
+In Telegram, there are two types of accounts: Users and Bots. With `tgcf` you may use your own user account or a bot that you have created.
+
+<details>
+<summary> Read this if you are planning to use a bot account   </summary>
+<br>
+
+- You can create a bot from [@BotFather](https://telegram.me/BotFather)
+- The bot must be added to the groups and channels (both source and destination)
+- The privacy mode of bots should be set to off. That means the bot should be allowed to listen to all messages in the channels/groups it is a member of. By default this setting is `on`, you have to turn privacy mode `off` from BotFather.
+
+</details>
+
 ## Default behavior 
 
 When you run `tgcf` for the first time, it will interactively prompt you to enter your phone number or bot token. A session file will be generated and saved in the folder from which you ran `tgcf`.
