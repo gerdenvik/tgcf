@@ -10,6 +10,7 @@ For an intro to configuration [read this](https://github.com/aahnik/tgcf/wiki/Ho
 plugins:
   filter:
     text:
+      case_sensitive: true # default is false if you don't write this line
       whitelist: ["this word"]
       blacklist: ["hello"]
     users:
