@@ -18,7 +18,7 @@ $ docker pull aahnik/tgcf
 Write all your [environment variables](https://github.com/aahnik/tgcf/wiki/Environment-Variables#create-a-env-file) in a file called `.env` and then use the `docker run` command to start the bot.
 
 ```shell
-$ docker run -d --env-file .env aahnik/tgcf
+$ docker run -it --env-file .env aahnik/tgcf
 ```
 
 Note:
