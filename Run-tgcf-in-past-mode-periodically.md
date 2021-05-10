@@ -34,3 +34,8 @@ Step5. Edit the `tgcf.config.yml` file according to your needs,
 Step6. Go to the Actions tab -> Select tgcf-past -> Run workflow
 
 ![image](https://user-images.githubusercontent.com/66209958/117601708-a0f61c00-b16c-11eb-9f2b-c525b24a4064.png)
+
+To run periodically, set a schedule for `on` param in your workflow file
+
+for cron syntax use https://crontab.guru/ or https://cron.help/
+
