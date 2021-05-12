@@ -8,9 +8,12 @@ The secret credentials like `API_ID` and `API_HASH` are stored as environment va
 | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **`API_ID`**     | obtain it from [my.telegram.org](https://my.telegram.org)    | always required                                              |
 | **`API_HASH`**   | obtain it from [my.telegram.org](https://my.telegram.org)    | always required                                              |
-| `SESSION_STRING` | obtained after [login](https://github.com/aahnik/tgcf/wiki/Login-with-a-bot-or-user-account#generate-session-string) | only required if dont have interactive shell while running   |
+| `TGCF_MODE`      | [`past` or `live`](https://github.com/aahnik/tgcf/wiki/Past-vs-Live-modes-explained) | only required if you don't have interactive shell while running `tgcf`. |
+| `BOT_TOKEN`      | obtained from [@BotFather](https://telegram.me/BotFather)    | required if you are running`tgcf`with a bot account.         |
+| `SESSION_STRING` | obtained after [login](https://github.com/aahnik/tgcf/wiki/Login-with-a-bot-or-user-account#generate-session-string) | only required if you are using `tgcf`with user account.      |
 | `TGCF_CONFIG`    | contents of [`tgcf.config.yml`](https://github.com/aahnik/tgcf/wiki/How-to-configure-tgcf-%3F) | only required if you cant edit files in your cloud deploy (digital ocean app or heroku dyno) |
-| `TGCF_MODE`      | [`past` or `live`](https://github.com/aahnik/tgcf/wiki/Past-vs-Live-modes-explained) | only required if dont have interactive shell while running   |
+
+
 
 
 ## Setting env vars
