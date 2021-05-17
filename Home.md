@@ -2,7 +2,7 @@ Welcome to the tgcf wiki!
 
 Most of the pages in the wiki are ready! I am still working on some of the pages.
 
-## FAQs
+### FAQs
 
 - [How do I run on Windows?](https://github.com/aahnik/tgcf/wiki/Run-tgcf-on-Windows)
 - [How do I run on Android?](https://github.com/aahnik/tgcf/wiki/Run-on-Android-using-Termux)
