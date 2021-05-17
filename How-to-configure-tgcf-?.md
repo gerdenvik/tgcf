@@ -16,6 +16,7 @@ When you are deploying on a cloud platform where you can't edit files, you may c
 
 ## Example Configuration
 
+To get the chat ids of a channel/group/private chat, please use [@userinfobot](https://telegram.me/userinfobot) on Telegram. Just forward a message from the chat to the bot, it will tell you the chat id.
 
 Below is an example configuration. Don't copy-paste this. Understand what each part does.
 
