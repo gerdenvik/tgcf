@@ -10,15 +10,19 @@ It is assumed that you are familiar with basic `docker` commands. Docker should 
 Pull the [official docker image](https://hub.docker.com/r/aahnik/tgcf) from DockerHub.
 
 ```shell
-$ docker pull aahnik/tgcf
+docker pull aahnik/tgcf
 ```
+
+## Configure
+
+- Write all your [environment variables](https://github.com/aahnik/tgcf/wiki/Environment-Variables#create-a-env-file) in a file called `.env`.
+- Write your [configuration](https://github.com/aahnik/tgcf/wiki/How-to-configure-tgcf-%3F)
+ in `tgcf.config.yml`.
 
 ## Run
 
-Write all your [environment variables](https://github.com/aahnik/tgcf/wiki/Environment-Variables#create-a-env-file) in a file called `.env` and then use the `docker run` command to start the bot.
-
 ```shell
-$ docker run -it --env-file .env aahnik/tgcf
+docker run -v /path/to/tgcf.config.yml:/app/tgcf.config.yml -d --env-file .env aahnik/tgcf
 ```
 
 Note:
