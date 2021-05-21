@@ -13,6 +13,8 @@ Pull the [official docker image](https://hub.docker.com/r/aahnik/tgcf) from Dock
 docker pull aahnik/tgcf
 ```
 
+> **Tip**: Use `aahnik/tgcf:minimal` for a smaller image size. (beta)
+
 ## Configure
 
 - Write all your [environment variables](https://github.com/aahnik/tgcf/wiki/Environment-Variables#create-a-env-file) in a file called `.env`.
