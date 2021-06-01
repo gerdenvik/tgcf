@@ -13,6 +13,7 @@ plugins:
    # ... your other plugins here
     mark:
         image: /path/to/image.png # the image to apply as watermark
+        # this can be a local path, or an URL starting with https://
 ```
 
 If you are running on your own computer,you must have [ffmpeg](https://ffmpeg.org/) installed in your system for this. 
