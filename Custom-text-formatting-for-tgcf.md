@@ -1,0 +1,1 @@
+The `format` plugin allows you to force a style before sending the messages to destination chat.
