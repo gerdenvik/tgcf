@@ -1,3 +1,12 @@
+## [WARNING] ❗this document is not up-to-date with the latest changes of tgcf. Please re-visit after a few days.
+
+<br>
+<br>
+<br>
+<br>
+
+
+
 ## Official Plugins
 
 The official plugins are installed by default when you install `tgcf`. The source code of these plugins resides under the [`plugins` ](https://github.com/aahnik/tgcf/tree/main/plugins) directory of the `tgcf` repo.
