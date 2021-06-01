@@ -9,7 +9,7 @@ Some of the plugins may have additional non-python dependencies, which you need 
 2. [Replace](https://github.com/aahnik/tgcf/wiki/Text-Replacement-feature-explained)
 3. [Format](https://github.com/aahnik/tgcf/wiki/Format-text-before-sending-to-destination)
 4. [Watermark](https://github.com/aahnik/tgcf/wiki/How-to-use--watermarking-%3F)
-5. [OCR](https://github.com/aahnik/tgcf/wiki/You-can-do-OCR-!)
+5. [OCR](https://github.com/aahnik/tgcf/wiki/You-can-do-OCR)
 
 More plugins coming soon!
 
