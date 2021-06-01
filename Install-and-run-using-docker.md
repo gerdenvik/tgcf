@@ -24,7 +24,7 @@ docker pull aahnik/tgcf
 ## Run
 
 ```shell
-docker run -v /path/to/tgcf.config.yml:/app/tgcf.config.yml -d --env-file .env aahnik/tgcf
+docker run -v absolute/path/to/tgcf.config.yml:/app/tgcf.config.yml -d --env-file .env aahnik/tgcf
 ```
 
 Note:
