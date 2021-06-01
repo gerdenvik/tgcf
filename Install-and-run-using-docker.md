@@ -39,7 +39,7 @@ To see if your container is running,
 ```shell
 $ docker ps
 CONTAINER ID   IMAGE               COMMAND       CREATED          STATUS          PORTS     NAMES
-ae4d7d6651ca   aahnik/tgcf    "poetry run tgcf"   3 minutes ago    Up 3 minutes              zen_gates
+ae4d7d6651ca   aahnik/tgcf      "tgcf --loud"   3 minutes ago    Up 3 minutes              zen_gates
 
 ```
 
