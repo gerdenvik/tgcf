@@ -4,7 +4,7 @@ Welcome to the tgcf wiki!
 | -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------ |
 -------------------
 
-All the pages in the wiki are divided into 5 sections. 
+The pages in the wiki are divided into the following sections.
 
 Expand each section below to see the pages. Search for any page using the wiki search bar of GitHub.
 
@@ -40,6 +40,14 @@ Expand each section below to see the pages. Search for any page using the wiki s
 
 <details>
 <summary>Plugins</summary>
+<br>
+
+- [Intro](https://github.com/aahnik/tgcf/wiki/Plugins)
+- [How to use filters ?](https://github.com/aahnik/tgcf/wiki/How-to-use-filters-%3F)
+- [Format text before sending to destination](https://github.com/aahnik/tgcf/wiki/Format-text-before-sending-to-destination)
+- [Text Replacement feature explained](https://github.com/aahnik/tgcf/wiki/Text-Replacement-feature-explained)
+- [How to use watermarking ?](https://github.com/aahnik/tgcf/wiki/How-to-use--watermarking-%3F)
+- [You can do OCR !](https://github.com/aahnik/tgcf/wiki/You-can-do-OCR)
 
 </details>
 
