@@ -16,14 +16,15 @@ When you are deploying on a cloud platform where you can't edit files, you may c
 
 ## Example Configuration
 
-To get the chat ids of a channel/group/private chat, please use [@userinfobot](https://telegram.me/userinfobot) on Telegram. Just forward a message from the chat to the bot, it will tell you the chat id.
+- For the `source` and `dest` fields use the username of the channel/bot/person/group. (omit the `@` symbol at the start). 
+- If the private entity does not have a username, you may use the link of the private channel/group.
 
 Below is an example configuration. Don't copy-paste this. Understand what each part does.
 
 ```yaml
 forwards:
-  - source: -1001412118156
-    dest: [-1001461332656,-1001457230530]
+  - source: channelName
+    dest: [anotherChannel,https://t.me/channelLink]
 
 
 show_forwarded_from: false
