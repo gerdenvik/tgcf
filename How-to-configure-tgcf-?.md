@@ -25,6 +25,7 @@ Below is an example configuration. Don't copy-paste this. Understand what each p
 forwards:
   - source: channelName
     dest: [anotherChannel,https://t.me/channelLink]
+    # use username or link of the entity
 
 
 show_forwarded_from: false
