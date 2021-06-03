@@ -54,6 +54,6 @@ Welcome to the tgcf wiki!
 
 - [How to write a plugin for tgcf ?](https://github.com/aahnik/tgcf/wiki/How-to-write-a-plugin-for-tgcf-%3F)
 - [Contributing Guidelines](https://github.com/aahnik/tgcf/blob/main/.github/CONTRIBUTING.md#contributing-guidelines)
-</details>
 - [Package management with Poetry](https://python-poetry.org/docs/)
 - [Telethon documentation](https://docs.telethon.dev/en/latest/)
+</details>
