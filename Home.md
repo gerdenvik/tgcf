@@ -2,11 +2,7 @@ Welcome to the tgcf wiki!
 
 | [Overview](https://github.com/aahnik/tgcf#readme) | [Roadmap](https://github.com/aahnik/tgcf/discussions/43) | [Support](https://github.com/aahnik/tgcf/discussions/2) | [FAQs](https://github.com/aahnik/tgcf/discussions/196) |
 | -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------ |
--------------------
 
-The pages in the wiki are divided into the following sections.
-
-Expand each section below to see the pages. Search for any page using the wiki search bar of GitHub.
 
 <details>
 <summary>Installation</summary>
@@ -51,3 +47,13 @@ Expand each section below to see the pages. Search for any page using the wiki s
 
 </details>
 
+
+<details>
+<summary>Development</summary>
+<br>
+
+- [How to write a plugin for tgcf ?](https://github.com/aahnik/tgcf/wiki/How-to-write-a-plugin-for-tgcf-%3F)
+- [Contributing Guidelines](https://github.com/aahnik/tgcf/blob/main/.github/CONTRIBUTING.md#contributing-guidelines)
+</details>
+- [Package management with Poetry](https://python-poetry.org/docs/)
+- [Telethon documentation](https://docs.telethon.dev/en/latest/)
