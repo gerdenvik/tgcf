@@ -1,5 +1,6 @@
 Welcome to the tgcf wiki!
 
-Most of the pages in the wiki are ready! I am still working on some of the pages.
+| [README.md](https://github.com/aahnik/tgcf#readme) | [Project Roadmap](https://github.com/aahnik/tgcf/discussions/43) | [Support the Project](https://github.com/aahnik/tgcf/discussions/2) | [FAQs](https://github.com/aahnik/tgcf/discussions/196) |
+| -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------ |
 
 
