@@ -15,7 +15,8 @@ plugins:
       whitelist: ["this word"]
       blacklist: ["hello"]
       regex: false # default is false. 
-      # set to true if you want the expressions in whitelist and blacklist to be evaluated as regular expressions
+      # set to true if you want the expressions in whitelist and blacklist 
+      # to be evaluated as regular expressions
 
     users:
       blacklist: [1547315064] # currently user ids are supported only. get from @userinfobot on telegram
