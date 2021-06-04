@@ -8,9 +8,9 @@ Inside your configuration under the plugins section put this:
 plugins:
   replace:
     text:
-      god: devil
-      smart: idiot
-      original: new
+      "god": devil
+      "smart": idiot
+      "original": new
 ```
 
 In the above example, "god" will be replaced by "devil" and "smart" will be replaced by "idiot" and so on.
