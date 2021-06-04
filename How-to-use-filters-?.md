@@ -19,7 +19,8 @@ plugins:
       # to be evaluated as regular expressions
 
     users:
-      blacklist: [1547315064] # currently user ids are supported only. get from @userinfobot on telegram
+      blacklist: [1547315064] # currently user ids are supported only. 
+      # get user ids from @userinfobot on telegram
 
     files:
       whitelist: [document,nofile] 
