@@ -9,12 +9,17 @@ For an intro to configuration [read this](https://github.com/aahnik/tgcf/wiki/Ho
 ```yaml
 plugins:
   filter:
+
     text:
       case_sensitive: true # default is false if you don't write this line
       whitelist: ["this word"]
       blacklist: ["hello"]
+      regex: false # default is false. 
+      # set to true if you want the expressions in whitelist and blacklist to be evaluated as regular expressions
+
     users:
       blacklist: [1547315064] # currently user ids are supported only. get from @userinfobot on telegram
+
     files:
       whitelist: [document,nofile] 
       # valid types are 
