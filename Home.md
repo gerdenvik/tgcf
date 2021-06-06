@@ -5,7 +5,7 @@ Welcome to the tgcf wiki!
 
 
 <details>
-<summary>Installation</summary>
+<summary>Platforms</summary>
 <br>
 
 - [Run tgcf on Windows](https://github.com/aahnik/tgcf/wiki/Run-tgcf-on-Windows)
