@@ -18,6 +18,7 @@ Welcome to the tgcf wiki!
 <summary>Basics</summary>
 <br>
 
+- [Past vs Live modes explained](https://github.com/aahnik/tgcf/wiki/Past-vs-Live-modes-explained)
 - [How to configure tgcf ?](https://github.com/aahnik/tgcf/wiki/How-to-configure-tgcf-%3F)
 - [CLI Usage](https://github.com/aahnik/tgcf/wiki/CLI-Usage)
 
