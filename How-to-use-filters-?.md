@@ -12,10 +12,10 @@ plugins:
 
     text:
       case_sensitive: true # default is false if you don't write this line
+      # the case_sensitive param has no significance if regex is set to true    
       whitelist: ["this word"]
       blacklist: ["hello"]
       regex: false # default is false. 
-      # the case_sensitive param has no significance if regex is set to true 
       # set to true if you want the expressions in whitelist and blacklist 
       # to be evaluated as regular expressions
 
