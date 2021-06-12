@@ -49,6 +49,9 @@ plugins:
 Here is the complete schema for the configuration file.
 
 - `admins` (the list of usernames or ids of the admins)
+    > - setting admins is not compulsory
+    > - if no admins are set, and you run tgcf in live mode, then no one can run commands to change the configuration. 
+    > - the bot/user bot **will work perfectly fine** as per your configuration file
 - `forwards` (a list of forward objects)
     - forward ( contains a `source` (string), a `dest` (list of strings) and an `offset`(optional integer) )
 - `show_forwarded_from` (boolean: true/false)
