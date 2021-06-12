@@ -22,6 +22,9 @@ When you are deploying on a cloud platform where you can't edit files, you may c
 Below is an example configuration. Don't copy-paste this. Understand what each part does.
 
 ```yaml
+admins: [yourUserName,AnotherPerson] 
+# when tgcf is run in live mode, the admins can run commands to change the configuration
+
 forwards:
   - source: channelName
     dest: [anotherChannel,https://t.me/channelLink]
@@ -45,6 +48,7 @@ plugins:
 
 Here is the complete schema for the configuration file.
 
+- `admins` (the list of usernames or ids of the admins)
 - `forwards` (a list of forward objects)
     - forward ( contains a `source` (string), a `dest` (list of strings) and an `offset`(optional integer) )
 - `show_forwarded_from` (boolean: true/false)
