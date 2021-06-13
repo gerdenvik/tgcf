@@ -24,8 +24,9 @@ Warning: This method of installation of `tgcf` is only for python developers, an
    ```shell
    poetry install
    ```
+  > Don't have poetry? Run `pip install pipx` and then `pipx install poetry`. To add poetry to path, run `pipx ensurepath`
 
-3. Activate virtual environment
+3. Activate the virtual environment
    ```shell
 
    poetry shell
