@@ -36,3 +36,8 @@ Warning: This method of installation of `tgcf` is only for python developers, an
    ```shell
     tgcf --help
    ```
+
+5. To update to a more latest version
+    ```shell
+     git fetch && git pull
+    ```
