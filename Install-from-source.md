@@ -32,7 +32,7 @@ Warning: This method of installation of `tgcf` is only for python developers, an
    poetry shell
    ```
 
-More details coming soon!
-
-
-
+4. Now the `tgcf` command is available to you.
+   ```shell
+    tgcf --help
+   ```
