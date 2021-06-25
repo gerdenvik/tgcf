@@ -1,3 +1,5 @@
+For more info about running tgcf in the background [read this discussion ➥](https://github.com/aahnik/tgcf/discussions/219)
+
 ## Create a  service
 
 Step by step guide
