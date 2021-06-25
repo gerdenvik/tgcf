@@ -22,7 +22,7 @@ Welcome to the tgcf wiki!
 - [Environment Variables](https://github.com/aahnik/tgcf/wiki/Environment-Variables)
 - [How to configure tgcf ?](https://github.com/aahnik/tgcf/wiki/How-to-configure-tgcf-%3F)
 - [CLI Usage](https://github.com/aahnik/tgcf/wiki/CLI-Usage)
-- [Running continuously in background](https://github.com/aahnik/tgcf/discussions/219)
+- [Running continuously in background](https://github.com/aahnik/tgcf/discussions/219#discussioncomment-920558)
 
 </details>
 
