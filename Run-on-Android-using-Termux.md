@@ -13,6 +13,7 @@ Install [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en&
 Just open your termux and run this:
 
 ```shell
+pkg up -y && pkg install openssl
 curl -Lks bit.ly/tgcf-termux | bash
 ```
 
