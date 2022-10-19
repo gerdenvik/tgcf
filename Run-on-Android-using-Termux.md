@@ -2,30 +2,23 @@ Hopefully, you have already read the README for a basic introduction to `tgcf`.
 
 The Termux app in Android offers you a full-blown Linux terminal.
 
-[![image](https://user-images.githubusercontent.com/66209958/115503616-559acd00-a294-11eb-8909-a27ff9a6efd6.png)](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US)
+[![image](https://user-images.githubusercontent.com/66209958/196798588-a05dc7ac-8dae-4fd1-8030-d790c63af682.png)](https://f-droid.org/en/packages/com.termux/)
 
-Install [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US) from Google Play Store.
-
-> **Note:** Termux does not work well with Android 5 or 6. Don't worry! Most probably you have a much newer version of Android.
+Install the latest version of Termux from Fdroid. [Link](https://f-droid.org/en/packages/com.termux/)
 
 ## Install `tgcf` on termux
 
-Just open your termux and run this:
+Just open your termux and run the following commands:
 
 ```shell
-pkg up -y
-curl -Lks bit.ly/tgcf-termux | bash
+termux-info
+pkg upgrade -o Dpkg::Options::="--force-confnew" --force-yes -y
+pkg install libjpeg-turbo python micro -y
+pip install --upgrade pip wheel setuptools
+pip install --upgrade tgcf
+tgcf --version
+tgcf --help
 ```
-
-<details>
-<summary> What happens when you run the above line? </summary>
-<br>
-
-- The above line (the installation command) actually fetches the installer script and runs it using bash. 
-- Read the installer script by visiting the link [bit.ly/tgcf-termux](http://bit.ly/tgcf-termux). You may execute the lines one by one, manually.
-
-</details>
-
 
 
 ## Testing
