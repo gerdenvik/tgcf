@@ -42,11 +42,6 @@ Welcome to the tgcf wiki!
 <br>
 
 - [Intro](https://github.com/aahnik/tgcf/wiki/Plugins)
-- [How to use filters ?](https://github.com/aahnik/tgcf/wiki/How-to-use-filters-%3F)
-- [Format text before sending to destination](https://github.com/aahnik/tgcf/wiki/Format-text-before-sending-to-destination)
-- [Text Replacement feature explained](https://github.com/aahnik/tgcf/wiki/Text-Replacement-feature-explained)
-- [How to use watermarking ?](https://github.com/aahnik/tgcf/wiki/How-to-use--watermarking-%3F)
-- [You can do OCR !](https://github.com/aahnik/tgcf/wiki/You-can-do-OCR)
 
 </details>
 
@@ -55,7 +50,6 @@ Welcome to the tgcf wiki!
 <summary>Development</summary>
 <br>
 
-- [How to write a plugin for tgcf ?](https://github.com/aahnik/tgcf/wiki/How-to-write-a-plugin-for-tgcf-%3F)
 - [Contributing Guidelines](https://github.com/aahnik/tgcf/blob/main/.github/CONTRIBUTING.md#contributing-guidelines)
 - [Package management with Poetry](https://python-poetry.org/docs/)
 - [Telethon documentation](https://docs.telethon.dev/en/latest/)
