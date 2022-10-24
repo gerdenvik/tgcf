@@ -32,8 +32,8 @@ To see if your container is running,
 
 ```shell
 $ docker ps
-CONTAINER ID   IMAGE               COMMAND       CREATED          STATUS          PORTS     NAMES
-ae4d7d6651ca   aahnik/tgcf       "tgcf --loud"   3 minutes ago    Up 3 minutes              zen_gates
+CONTAINER ID   IMAGE         COMMAND                 CREATED          STATUS          PORTS                    NAMES
+d12ef4fe2b6c   aahnik/tgcf   "/bin/sh -c tgcf-web"   32 seconds ago   Up 32 seconds   0.0.0.0:8501->8501/tcp   beautiful_mclean
 
 ```
 
