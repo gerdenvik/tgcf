@@ -18,7 +18,7 @@ docker pull aahnik/tgcf
 ## Run
 
 ```shell
-docker run -d --env-file .env aahnik/tgcf
+docker run -d -p 8501:8501 --env-file .env aahnik/tgcf
 ```
 
 Note:
@@ -38,6 +38,8 @@ ae4d7d6651ca   aahnik/tgcf       "tgcf --loud"   3 minutes ago    Up 3 minutes  
 ```
 
 The container id and name will be different in your machine.
+
+**Visit [`localhost:8501`](http://localhost:8501/) to access the web interface for tgcf.**
 
 To see the logs produced by the container,
 
