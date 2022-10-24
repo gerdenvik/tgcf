@@ -44,10 +44,10 @@ The container id and name will be different in your machine.
 To see the logs produced by the container,
 
 ```shell
-$ docker logs zen_gates
+$ docker logs beautiful_mclean
 ```
 
-Replace `zen_gates` with the name of the container in your machine.
+Replace `beautiful_mclean` with the name of the container in your machine.
 
 
 
