@@ -18,7 +18,7 @@ In Telegram, there are two types of accounts: Users and Bots. With `tgcf` you ma
 
 Click on the below button to run in a free repl. 
 
-[![run on repl](https://docs.replit.com/images/repls/run-on-replit.svg)](https://replit.com/@aahnik/tg-login)
+https://replit.com/@aahnik/tg-login
 
 - The session string will not be printed on the screen. (for security purposes)
 - The session string will be securely saved in your Saved Messages (if you log in with your own user account).
