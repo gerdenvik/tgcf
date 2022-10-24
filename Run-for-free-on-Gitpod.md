@@ -17,7 +17,6 @@ If you are planning to use `tgcf`, then one way is to install it on your compute
       # prints the CLI usage
      ```
 
-4. Create two new files [`.env`](https://github.com/aahnik/tgcf/wiki/Environment-Variables) and [`tgcf.config.yml`](https://github.com/aahnik/tgcf/wiki/How-to-configure-tgcf-%3F) and fill them up.
   
 
 
