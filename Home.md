@@ -33,7 +33,6 @@ Welcome to the tgcf wiki!
 - [Deploy to Heroku](https://github.com/aahnik/tgcf/wiki/Deploy-to-Heroku)
 - [Deploy to Digital Ocean](https://github.com/aahnik/tgcf/wiki/Deploy-to-Digital-Ocean)
 - [Run for free on Gitpod](https://github.com/aahnik/tgcf/wiki/Run-for-free-on-Gitpod)
-- [Run tgcf in past mode periodically using GitHub Actions](https://github.com/aahnik/tgcf/wiki/Run-tgcf-in-past-mode-periodically)
 
 </details>
 
