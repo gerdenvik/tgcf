@@ -1,9 +1,5 @@
 It is assumed that you are familiar with basic `docker` commands. Docker should be properly installed and running in your system. 
 
-
-- Make sure you have understood how `tgcf` is run by passing certain variables via [command-line options](https://github.com/aahnik/tgcf/wiki/CLI-usage) or by setting them as [environment variables](https://github.com/aahnik/tgcf/wiki/Environment-Variables).
-- Read about [`tgcf.config.yml`](https://github.com/aahnik/tgcf/wiki/How-to-configure-tgcf-%3F) to know how you can configure `tgcf`
-
 ## Install
 
 
@@ -17,14 +13,12 @@ docker pull aahnik/tgcf
 
 ## Configure
 
-- Write all your [environment variables](https://github.com/aahnik/tgcf/wiki/Environment-Variables#create-a-env-file) in a file called `.env`.
-- Write your [configuration](https://github.com/aahnik/tgcf/wiki/How-to-configure-tgcf-%3F)
- in `tgcf.config.yml`.
+- Set the password for web interface. `echo "PASSWORD=hocus pocus qwerty utopia" >> .env`
 
 ## Run
 
 ```shell
-docker run -v absolute/path/to/tgcf.config.yml:/app/tgcf.config.yml -d --env-file .env aahnik/tgcf
+docker run -d --env-file .env aahnik/tgcf
 ```
 
 Note:
