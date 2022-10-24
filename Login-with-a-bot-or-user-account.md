@@ -11,12 +11,6 @@ In Telegram, there are two types of accounts: Users and Bots. With `tgcf` you ma
 
 </details>
 
-## Default behavior 
-
-When you run `tgcf` for the first time, it will interactively prompt you to enter your phone number or bot token. A session file will be generated and saved in the folder from which you ran `tgcf`.
-
-When you will run `tgcf` again, from the same folder, you will not be required to log in.
-
 ## Generate Session String
 
 
@@ -37,7 +31,7 @@ Click on the below button to run in a free repl.
 - Make sure you have `python` installed.
   If you don't have python:
     - for Linux/Mac, its generally already installed.
-    - for windows install python 3.8 or above from the Microsoft store
+    - for windows, use WSL-2 (Windows-11 or above) to run Ubuntu
     - for android (termux) run `pkg install python`
 
 - Install `tg-login` by running `pip install tg-login`
