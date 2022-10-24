@@ -12,7 +12,8 @@ Just open your termux and run the following commands:
 
 ```shell
 termux-info
-pkg upgrade -o Dpkg::Options::="--force-confnew" --force-yes -y
+pkg update
+pkg upgrade
 pkg install libjpeg-turbo python micro -y
 pip install --upgrade pip wheel setuptools
 pip install --upgrade tgcf
