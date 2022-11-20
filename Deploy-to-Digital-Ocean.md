@@ -4,22 +4,29 @@ DigitalOcean infrastructure is a leading cloud service provider based in the Uni
 <summary>App Platform</summary>
 <br>
 
-![create-app](https://user-images.githubusercontent.com/66209958/113475188-aab3a200-9491-11eb-8649-9c4111d05a1b.png)
+1. Click **Create** -> *Apps*
 
-Click **Create** -> *Apps*
-
-
-![source-is-docker-hub](https://user-images.githubusercontent.com/66209958/113475207-c1f28f80-9491-11eb-84d1-5b90e6a4ee3c.png)
-
-Choose **Docker Hub** as the source.
-Choose the **type** as _"Web"_
-
-In the next step,the **repository** path is _"aahnik/tgcf"_.
-
-You can now set the values of the [environment variables](https://github.com/aahnik/tgcf/wiki/Environment-Variables) from this beautiful interface provided by Digital Ocean.
+    ![create-app](https://user-images.githubusercontent.com/66209958/113475188-aab3a200-9491-11eb-8649-9c4111d05a1b.png)
 
 
-Give any name to your app. After this, you will be lead to a pricing page. Choose a pricing plan suitable for you and click "Launch basic app".
+
+2. Choose **Docker Hub** as the source. **repository** path is _"aahnik/tgcf"_. Click "Next".
+
+    ![select-docker-hub](https://user-images.githubusercontent.com/66209958/202895433-88320c4b-67cc-46e5-8bcf-905b53808c9a.png)
+
+3. A page will appear where you can edit your app resources. (Zoom and understand the image)
+
+    ![app-resources](https://user-images.githubusercontent.com/66209958/202896017-7a51b267-0f4b-4281-9b55-be4ed4142cc4.svg)
+
+4. Set your [environment variables](https://github.com/aahnik/tgcf/wiki/Environment-Variables).
+
+    ![set-env-vars](https://user-images.githubusercontent.com/66209958/202895453-e7589b7f-1bea-44c1-acb8-19f5eb489e45.png)
+
+5. Choose your location
+
+    ![choose-region](https://user-images.githubusercontent.com/66209958/202895459-4853c750-8e85-4d13-a329-a7c62a7ed9e6.png)
+
+
 </details>
 
 
