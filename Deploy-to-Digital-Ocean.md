@@ -26,6 +26,10 @@ DigitalOcean infrastructure is a leading cloud service provider based in the Uni
 
     ![choose-region](https://user-images.githubusercontent.com/66209958/202895459-4853c750-8e85-4d13-a329-a7c62a7ed9e6.png)
 
+5. Wait for the deployment to be done. Once done click on **"Live App"** and enjoy!
+
+    ![waiting for deploy](https://user-images.githubusercontent.com/66209958/202896693-06195fff-4c61-4572-a960-48f032fdb82b.png)
+    ![success](https://user-images.githubusercontent.com/66209958/202896699-83f8ad49-e741-4114-9b83-0fb608e68baf.png)
 
 </details>
 
