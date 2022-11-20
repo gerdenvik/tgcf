@@ -1,7 +1,7 @@
 DigitalOcean infrastructure is a leading cloud service provider based in the United States of America. Their headquarter operates from New York City, and their data centers are prevalent in every corner of the world in order to provide seamless cloud services across the globe.
 
-
-App Platform
+<details>
+<summary>App Platform</summary>
 
 
 ![create-app](https://user-images.githubusercontent.com/66209958/113475188-aab3a200-9491-11eb-8649-9c4111d05a1b.png)
@@ -20,10 +20,11 @@ You can now set the values of the [environment variables](https://github.com/aah
 
 
 Give any name to your app. After this, you will be lead to a pricing page. Choose a pricing plan suitable for you and click "Launch basic app".
+</details>
 
 
-
-## Ubuntu Droplet
+<details>
+<summary>Ubuntu Droplet</summary>
 
 If you want more control, you may run `tgcf` on a VPS like DigitalOcean's ubuntu droplets.
 
@@ -50,5 +51,5 @@ tgcf-web
 ```
 Exit the screen session by <kbd>Ctrl</kbd> + <kbd>a</kbd> then press <kbd>d</kbd>.
 Now you can safely close the console to VPS.
+</details>
 
-Details coming soon!
