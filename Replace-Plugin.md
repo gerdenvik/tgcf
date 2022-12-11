@@ -12,6 +12,20 @@ original: new
 ```
 Use quotes when you have spaces or any special character or numbers.
 
+### Remove certain piece of text
+
+For that, you need to put a blank string in place of new text. Like nothing within double quotes. `""`.
+```
+"evil": ""
+```
+By this, all occurrences of `evil` in your message will be removed.
+
+#### Remove URLs
+docs will be updated soon
+
+### Format text using Replace Plugin
+
+#### Case 1. Change the format of matching text
 You can use the following special keywords to change a match to particular text formatting when regex is enabled.
 
 `bold italics code strike plain`
@@ -21,7 +35,9 @@ Example:
 ```
 "(hello)": bold
 ```
-- If you want to convert one text to another, and then format it, you need to use the telegram markdown syntax.
+
+#### Case 2. Convert a match to another text, and then have special formatting for it
+If you want to convert one text to another, and then format it, you need to use the telegram markdown syntax.
 ```
 "(python)": "**javascript**"
 ```
