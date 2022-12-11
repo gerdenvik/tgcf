@@ -3,7 +3,7 @@
 
 
 
-Write every replacement in a new line. The original text then a colon `:` and then the new text.
+Write every replacement in a new line. The original text then **a colon `:`** and then **a space** and then the new text.
 ```
 god: devil
 smart: idiot
