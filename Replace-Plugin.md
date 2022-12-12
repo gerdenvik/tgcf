@@ -9,11 +9,17 @@ god: devil
 smart: idiot
 original: new
 "hello god": "whatever is ^"
+'some regex with \ character': 'new expression'
 ```
-Use quotes when you have spaces or any special character or numbers.
+Use quotes when you have spaces or any special character or numbers. 
+
+- Its recommended to use **single quotes**. Quotes are must when your string contain spaces or special characters.
+- Double quotes wont work if your regex contains `\`.
+- The text you enter is parsed as yaml. So should follow yaml rules. 
+- The key-value pairs must be string and string.
+
 
 ### Remove certain piece of text
-
 For that, you need to put a blank string in place of new text. Like nothing within double quotes. `""`.
 ```
 "evil": ""
