@@ -21,7 +21,10 @@ For that, you need to put a blank string in place of new text. Like nothing with
 By this, all occurrences of `evil` in your message will be removed.
 
 #### Remove URLs
-docs will be updated soon
+```
+"(@|www|http?)\S+": ""
+```
+[Visit regex101](https://regex101.com/r/46KTQC/1) to test or understand the regex.
 
 ### Format text using Replace Plugin
 
