@@ -28,7 +28,7 @@ By this, all occurrences of `evil` in your message will be removed.
 
 #### Remove URLs
 ```
-"(@|www|http?)\S+": ""
+'(@|www|http?)\S+': ''
 ```
 [Visit regex101](https://regex101.com/r/46KTQC/1) to test or understand the regex.
 
