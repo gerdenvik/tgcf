@@ -4,4 +4,4 @@ How to install WSL ? https://learn.microsoft.com/en-us/windows/wsl/install
 
 Once you are done with that, open the Ubuntu Terminal and follow the steps in README.
 
-Note: You can install python and run tgcf directly on Windows, but certain things may break. Consider this my aversion towards Windows.
+Note: You can install python and run tgcf directly on Windows, but certain things may(probably will) break. Consider this my aversion towards Windows.
