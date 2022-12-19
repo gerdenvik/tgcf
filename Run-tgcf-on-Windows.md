@@ -3,3 +3,5 @@ You need to setup WSL-2 before you can run `tgcf` on Windows. You need to have W
 How to install WSL ? https://learn.microsoft.com/en-us/windows/wsl/install
 
 Once you are done with that, open the Ubuntu Terminal and follow the steps in README.
+
+Note: You can install python and run tgcf directly on Windows, but certain things may break. Consider this my aversion towards Windows.
